@@ -1,0 +1,664 @@
+
+
+
+<!DOCTYPE HTML>
+
+
+<html>
+
+
+<head>
+
+
+<title> Music Trivia</title>
+
+
+<style type="text/css">
+
+
+	body{background-image: url(http://www.pptgrounds.com/wp-content/uploads/2013/07/Colored-Music-Notes-Style-PPT-Backgrounds.jpg); background-repeat : no-repeat;
+
+
+	background-size: cover;
+
+
+	position: absolute;
+
+
+	margin-left: 35%;
+
+
+	margin-top: 20%;
+
+
+	color: Blue;
+
+
+	font: .5cm;
+
+
+	}
+
+
+</style>
+
+
+<script>
+
+
+var n = 0
+
+
+var i = 1
+
+
+var o = 0
+
+
+function support(){
+
+
+y = document.getElementById("qans").value
+
+
+var yy=y.toUpperCase();
+
+
+x = document.getElementById("question").value
+
+
+if (o===0){
+
+
+y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="B"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===1){
+
+
+	y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="B"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===2){
+
+
+	y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="C"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===3){
+
+
+	y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="C"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===4){
+
+
+	y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="A"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===5){
+
+
+	y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="A"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===6){
+
+
+	y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="A"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===7){
+
+
+y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="A"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===8){
+
+
+	y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="A"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+else if (o===9){
+
+
+y = document.getElementById("qans").value
+
+
+document.view.qscore.value=n
+
+
+if(yy==="C"){
+
+
+document.getElementById("question").value="You are right"
+
+
+n=n+1
+
+
+}
+
+
+else {
+
+
+document.getElementById("question").value="You are wrong"
+
+
+n=n
+
+
+}
+
+
+}
+
+
+	o++;
+
+
+}
+
+
+function main(){
+
+
+if (i===1){
+
+
+	document.view.qnum.value=i;
+
+
+document.view.qscore.value=0;
+
+
+	document.view.question.value ="How many sharps are there in C Major Scale?\na) 1\nb) 0\nc) 4\nd) 9";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===2){
+
+
+	document.view.qnum.value=i;	
+
+
+	document.view.question.value ="Which year was Hildegard von Bingen born?\na) 1198\nb) 1098\nc) 1498\nd) 1398";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===3){
+
+
+	document.view.qnum.value=i;
+
+
+	document.view.question.value ="How many notes are there in C Chromatic Scale?\na) 14\nb) 12\nc) 13\nd) 11";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===4){
+
+
+	document.view.qnum.value=i;
+
+
+	document.view.question.value ="How many valves are there on Trumpet?\na) 1\nb) 2\nc) 3\nd) 4";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===5){
+
+
+	document.view.qnum.value=i;
+
+
+	document.view.question.value ="Which of these musicians/composers wrote the piece, <Canon in D>\na) Johann Pachelbel\nb) Johann Sebastian Bach\nc) Peter G. Han\nd) Zay Hilfigerrr";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===6){
+
+
+	document.view.qnum.value=i;
+
+
+	document.view.question.value ="Which of these songs is not written by Desiigner?\na) Fade\nb) Panda\nc) Tiimmy Turner\nd) Zombie Walk";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===7){
+
+
+	document.view.qnum.value=i;
+
+
+	document.view.question.value ="Which of these musicians/composers wrote the piece, <Moonlight Sonata>\na) Beethoven\nb) Bach\nc) Pachelbel\nd) Giovanni Pierluigi da Palestrina";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===8){
+
+
+	document.view.qnum.value=i;
+
+
+	document.view.question.value ="Which of these era was in ca.1600 to ca.1750?\na) Renaissance\nb) Roamntic\nc) Baroque\nd) Classical";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===9){
+
+
+	document.view.qnum.value=i;
+
+
+	document.view.question.value ="Which of these songs was not written by the band <Queen>\na) Hey Jude\nb) Love of my life\nc) Under Pressure\nd) I want it all";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===10){
+
+
+	document.view.qnum.value=i;	
+
+
+	document.view.question.value ="Which of these songs was not written by the band <Beatles>\na) I want to hold your hand\nb) I want to break free\nc) Who wants to live forever\nd) Don't let me down";
+
+
+document.view.qans.value=""
+
+
+}
+
+
+else if (i===11){
+
+
+alert("You got"+ " " + n*10 + "% for this Trivia Quiz")
+
+
+}
+
+
+	i++;
+
+
+}
+
+
+</script>
+
+
+</head>
+
+
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+
+
+<br>
+
+
+<FORM name="view">
+
+
+	Question: &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question >" onClick=main()>
+
+
+<br>
+
+
+<br>
+
+
+Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer >" onClick=support()>
+
+
+	<br>
+
+
+<br>
+
+
+Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "score" name="qscore" size="2">
+
+
+	<br>
+
+
+	<br>
+
+
+	<TEXTAREA COLS=31 ROWS=9 id="question" wrap=virtual"></TEXTAREA>
+
+
+</FORM>
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
